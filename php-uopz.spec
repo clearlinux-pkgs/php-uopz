@@ -4,10 +4,10 @@
 #
 Name     : php-uopz
 Version  : 6.1.1
-Release  : 3
+Release  : 4
 URL      : https://pecl.php.net/get/uopz-6.1.1.tgz
 Source0  : https://pecl.php.net/get/uopz-6.1.1.tgz
-Summary  : User Operations for Zend
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : PHP-3.01
 Requires: php-uopz-lib = %{version}-%{release}
@@ -30,6 +30,7 @@ lib components for the php-uopz package.
 
 %prep
 %setup -q -n uopz-6.1.1
+cd %{_builddir}/uopz-6.1.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -48,4 +49,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/uopz.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/uopz.so
