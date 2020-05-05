@@ -4,7 +4,7 @@
 #
 Name     : php-uopz
 Version  : 6.1.1
-Release  : 6
+Release  : 7
 URL      : https://pecl.php.net/get/uopz-6.1.1.tgz
 Source0  : https://pecl.php.net/get/uopz-6.1.1.tgz
 Summary  : No detailed summary available
