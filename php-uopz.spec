@@ -4,7 +4,7 @@
 #
 Name     : php-uopz
 Version  : 7.1.1
-Release  : 14
+Release  : 15
 URL      : https://pecl.php.net/get/uopz-7.1.1.tgz
 Source0  : https://pecl.php.net/get/uopz-7.1.1.tgz
 Summary  : No detailed summary available
@@ -49,4 +49,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/uopz.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/uopz.so
