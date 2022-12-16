@@ -4,3 +4,4 @@ Configure miss: if zts is enabled
 Configure miss: suncc
 Configure miss: whether to enable AddressSanitizer for uopz
 Configure miss: whether to enable uopz coverage support
+Configure miss: x86_64-generic-linux-gnu-file
